@@ -1,0 +1,14 @@
+Front page:
+- Color palette: are we abiding by any branding guidelines from PRG or Quest?
+- Have the topics be laid out in a "neural network", sort of like Duolingo's layout but with arrows to make it look like a neural network
+- Login? No login? 
+- Need to come up with logo
+- Approximately how many topics are we going to have?
+- Avatar system?
+
+Choose your level page:
+- This could possibly be integrated into the front page - maybe a dropdown to choose your level initially and then the roadmap that you are shown automatically redirects to the correct level curriculum?
+
+Curriculum layout: 
+- Similar to the 6.031 website
+- When user reaches the bottom, maybe second chapter could automatically load up?

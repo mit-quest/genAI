@@ -1,0 +1,5 @@
+- We don't have to deal with login, we're just making a prototype to hand off to professionals
+- No data collection! Too many lawyers involved
+- Professional branding people will deal with color palette/logo, but we can take it and run with it as far as we want
+- Start by accommodating 15-20 topics but have it be infinitely scalable
+- Final prototype has to be good enough to garner funding!

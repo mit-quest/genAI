@@ -1,0 +1,35 @@
+By 9/24:
+- Show roadmapping and plans to everybody at group meeting
+
+By 10/01:
+- Have a lo-fi wireframe of the front page available to iterate on
+
+By 10/08: 
+- Design exercises for overall theme, color palette, font, logo
+
+By 10/15:
+- Finalize a color palette
+
+By 10/22:
+- Have first draft of entire framework, including home page, level page, and curriculum page
+
+By 10/29:
+- 
+
+By 11/05:
+- 
+
+By 11/12:
+- Have second draft of entire framework ready to iterate on
+
+By 11/19:
+- 
+
+By 11/26:
+- 
+
+By 12/03:
+- Have final draft of website available, make small changes
+
+By 12/10:
+- Entire website framework complete!

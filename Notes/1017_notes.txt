@@ -1,0 +1,11 @@
+- while the color scheme and design should remain the same throughout the website,
+the "feel" (font, UI) should change between content levels
+- beginner: picture based, font can be child friendly
+- intermediate: scratch based, font should level up to be middle/high school friendly
+- advanced: ipynb based, should look like an "adult" website
+
+todo for nisha:
+- first draft of different interfaces for beginner, intermediate, advanced
+- find examples of websites that do this "leveling up" well
+- take a first pass at fonts
+- come up with five animal characters that correspond to the five themes of AI :) 
