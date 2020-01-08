@@ -1,0 +1,150 @@
+---
+title: 'Bridge Projects'
+permalink: /projects/
+---
+<head>
+    <style>
+
+        .gallery {
+
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
+            column-count: 2;
+            -webkit-column-width: fill-available;
+            -moz-column-width: fill-available;
+            column-width: fill-available;
+        }
+
+        .gallery .pics {
+            -webkit-transition: all 350ms ease;
+            transition: all 350ms ease; }
+            .gallery .animation {
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+        }
+
+            .gallery img {
+                border: 4px solid #212529;
+                border-radius: 25px;
+                padding: 15px;
+            }
+
+            .gallery .img-overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-color: #212529;
+                border-radius: 25px;
+            }
+
+            .gallery .img-overlay:hover {
+                opacity: .75;
+                cursor:pointer;
+            }
+
+            .text {
+                color: white;
+              font-size: 1.25vw;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+              text-align: center;
+                min-width: 75%;
+            }
+
+            h4 {
+                font-size: 1.75vw;
+            }
+
+            .gallery p a {
+                text-decoration: none !important;
+                color: white;
+                font-weight: bold;
+            }
+
+            .gallery p a:hover {
+                color: #0c0;
+            }
+
+        @media (max-width: 450px) {
+            .gallery {
+                -webkit-column-count: 1;
+                -moz-column-count: 1;
+                column-count: 1;
+                -webkit-column-width: fit-content;
+                -moz-column-width: fit-content;
+                column-width: fit-content;
+            }
+        }
+
+
+    </style>
+</head>
+
+<main>
+    <div class="container">
+        <div class="row justify-content-center align-items-start">
+            <!-- Grid row -->
+            <div class="gallery" id="gallery" style="padding-top: 60px;">
+              <!-- Grid column -->
+              <div class="mb-3 pics animation all 2" onclick="window.location = '/necstlab/'">
+                  <img class="img-fluid" src="../assets/images/projects/necstlab.png" alt="Segmented cracks on 3D carbon fiber laminate image">
+                      <div class="img-overlay">
+                          <div class="text">
+                              <h4>Carbon fiber laminate damage segmentation</h4>
+                              <p>Image segmentation provides an automated solution to <a href="https://necstlab.mit.edu">Necstlab's</a> manual labeling of damage in carbon fiber laminates.</p>
+                          </div>
+                      </div>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="mb-3 pics animation all 2" onclick="window.location = '/sports-analytics/'">
+                  <img class="img-fluid" src="../assets/images/projects/sports_analytics.png" alt="OpenPose output for a soccer game">
+                 <div class="img-overlay">
+                      <div class="text">
+                          <h4>Athlete identification from pose</h4>
+                          <p>Skeletal configurations extracted by <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">CMU's OpenPose</a> can be used to identify players from video.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="mb-3 pics animation all 1" onclick="window.location = '/genome-screening/'">
+                  <img class="img-fluid" src="../assets/images/projects/genome_screening.png" alt="ProbComp genome GUI">
+                 <div class="img-overlay">
+                      <div class="text">
+                          <h4>Screening for locations in the genome that are safe to engineer</h4>
+                          <p>In a joint project with <a href="http://probcomp.csail.mit.edu/">MIT's ProbComp</a> group, probabilistic computing assists the <a href="http://mit.edu/voigtlab/">Voigt Lab</a> in finding optimal genome locations for gene insertion.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="mb-3 pics animation all 2" onclick="window.location = '/desalination/'">
+                  <img class="img-fluid" src="../assets/images/projects/desalination.png" alt="Desalination system">
+                 <div class="img-overlay">
+                      <div class="text">
+                          <h4>Flow control for low-cost solar-powered desalination</h4>
+                          <p>A Reinforcement Learning-based controller helps the <a href="http://gear.mit.edu/">Global Engineering and Research Lab</a> optimize a desalination system that will provide clean drinking water to rural India.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </div>
+</main>

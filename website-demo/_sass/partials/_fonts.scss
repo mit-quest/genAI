@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Neue Haas';
+  src:  local('NeueHaasDisplay-Roman'),
+        url('/assets/fonts/neuehaasdisplay-roman.woff2') format('woff2'),
+        url('/assets/fonts/neuehaasdisplay-roman.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas';
+  src:  local('NeueHaasDisplay-Medium'),
+        url('/assets/fonts/neuehaasdisplay-medium.woff2') format('woff2'),
+        url('/assets/fonts/neuehaasdisplay-medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas';
+  src:  local('NeueHaasDisplay-Bold'),
+        url('/assets/fonts/neuehaasdisplay-bold.woff2') format('woff2'),
+        url('/assets/fonts/neuehaasdisplay-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas';
+  src:  local('NeueHaasDisplay-Black'),
+        url('/assets/fonts/neuehaasdisplay-black.woff2') format('woff2'),
+        url('/assets/fonts/neuehaasdisplay-black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}

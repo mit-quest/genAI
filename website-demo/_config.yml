@@ -1,0 +1,31 @@
+title: "GenAI"
+email: ""
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://mit-quest.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+sass:
+  style: compressed
+  load_paths:
+    - _sass
+    - node_modules
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-pug
+  - jekyll-autoprefixer
+  - jekyll-assets
+
+defaults:
+  -
+    values:
+      layout: "default"
+
+assets:
+  sources:
+    - node_modules
+
+include: ['_pages']
+
+exclude: []

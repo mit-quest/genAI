@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title> Bridge Projects &middot; GenAI </title>
+<link href="/assets/css/styles.css" rel="stylesheet">
+<link href="/assets/images/favicon.png" rel="shortcut icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="wrapper">
+
+      <header class="site-header">
+  <div class="site-header-logos container d-none d-lg-block">
+    <div class="row align-items-center">
+      <div class="col-sm" style="font-family: 'Audiowide', cursive">Chapter 3: GANs</div>
+      <div class="col-sm text-sm-right"><a href="http://web.mit.edu/"><img src="/assets/images/GenAI.png" width="225" height="57" alt="GenAI"></a></div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: rgb(51,51,51) !important;"><a class="navbar-brand d-lg-none" href="/"><img src="/assets/images/logo-quest-white.svg" width="90" height="30" alt="MIT Quest for Intelligence"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="container">
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+      <section class="posts">
+        <head>
+    <style>
+
+        .gallery {
+
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
+            column-count: 2;
+            -webkit-column-width: fill-available;
+            -moz-column-width: fill-available;
+            column-width: fill-available;
+        }
+
+        .gallery .pics {
+            -webkit-transition: all 350ms ease;
+            transition: all 350ms ease; }
+            .gallery .animation {
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+        }
+
+            .gallery img {
+                border: 4px solid #212529;
+                border-radius: 25px;
+                padding: 15px;
+            }
+
+            .gallery .img-overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-color: #212529;
+                border-radius: 25px;
+            }
+
+            .gallery .img-overlay:hover {
+                opacity: .75;
+                cursor:pointer;
+            }
+
+            .text {
+                color: white;
+              font-size: 1.25vw;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+              text-align: center;
+                min-width: 75%;
+            }
+
+            h4 {
+                font-size: 1.75vw;
+            }
+
+            .gallery p a {
+                text-decoration: none !important;
+                color: white;
+                font-weight: bold;
+            }
+
+            .gallery p a:hover {
+                color: #0c0;
+            }
+
+        @media (max-width: 450px) {
+            .gallery {
+                -webkit-column-count: 1;
+                -moz-column-count: 1;
+                column-count: 1;
+                -webkit-column-width: fit-content;
+                -moz-column-width: fit-content;
+                column-width: fit-content;
+            }
+        }
+
+
+    </style>
+</head>
+
+<main>
+    <div class="container">
+        <div class="row justify-content-center align-items-start">
+            <!-- Grid row -->
+            <div class="gallery" id="gallery" style="padding-top: 60px;">
+              <!-- Grid column -->
+              <div class="mb-3 pics animation all 2" onclick="window.location = '/necstlab/'">
+                  <img class="img-fluid" src="../assets/images/projects/necstlab.png" alt="Segmented cracks on 3D carbon fiber laminate image">
+                      <div class="img-overlay">
+                          <div class="text">
+                              <h4>Carbon fiber laminate damage segmentation</h4>
+                              <p>Image segmentation provides an automated solution to <a href="https://necstlab.mit.edu">Necstlab's</a> manual labeling of damage in carbon fiber laminates.</p>
+                          </div>
+                      </div>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="mb-3 pics animation all 2" onclick="window.location = '/sports-analytics/'">
+                  <img class="img-fluid" src="../assets/images/projects/sports_analytics.png" alt="OpenPose output for a soccer game">
+                 <div class="img-overlay">
+                      <div class="text">
+                          <h4>Athlete identification from pose</h4>
+                          <p>Skeletal configurations extracted by <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">CMU's OpenPose</a> can be used to identify players from video.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="mb-3 pics animation all 1" onclick="window.location = '/genome-screening/'">
+                  <img class="img-fluid" src="../assets/images/projects/genome_screening.png" alt="ProbComp genome GUI">
+                 <div class="img-overlay">
+                      <div class="text">
+                          <h4>Screening for locations in the genome that are safe to engineer</h4>
+                          <p>In a joint project with <a href="http://probcomp.csail.mit.edu/">MIT's ProbComp</a> group, probabilistic computing assists the <a href="http://mit.edu/voigtlab/">Voigt Lab</a> in finding optimal genome locations for gene insertion.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="mb-3 pics animation all 2" onclick="window.location = '/desalination/'">
+                  <img class="img-fluid" src="../assets/images/projects/desalination.png" alt="Desalination system">
+                 <div class="img-overlay">
+                      <div class="text">
+                          <h4>Flow control for low-cost solar-powered desalination</h4>
+                          <p>A Reinforcement Learning-based controller helps the <a href="http://gear.mit.edu/">Global Engineering and Research Lab</a> optimize a desalination system that will provide clean drinking water to rural India.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </div>
+</main>
+
+      </section>
+
+<!--      <footer class="site-footer bg-dark">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-sm"><a href="https://quest.mit.edu"><img src="/assets/images/logo-quest-white.svg" width="240" height="77" alt="MIT Quest for Intelligence"></a></div>
+      <div class="col-sm">
+        <ul class="nav justify-content-sm-end dropdown">
+          
+            
+              <li class="nav-item ">
+                <a class="nav-link" href="/">Home</a>
+            
+          
+            
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="" data-toggle="dropdown">About</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  
+                    <a class="nav-link dropdown-item" href="/strategy/">What is the Bridge?</a>
+                  
+                    <a class="nav-link dropdown-item" href="/implementation/">What does the Bridge do?</a>
+                  
+                </div>
+              </li>
+            
+          
+            
+              <li class="nav-item active ">
+                <a class="nav-link" href="/projects/">Projects</a>
+            
+          
+            
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="" data-toggle="dropdown">Services</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  
+                    <a class="nav-link dropdown-item" href="/submission/">Submit a project</a>
+                  
+                    <a class="nav-link dropdown-item" href="/hours/">Office hours</a>
+                  
+                    <a class="nav-link dropdown-item" href="/credits/">Cloud credits</a>
+                  
+                </div>
+              </li>
+            
+          
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer-copyright"><a href="http://web.mit.edu/"><img src="/assets/images/logo-mit-white.svg" width="72" height="38" alt="MIT"></a><br>&copy; 2019 Massachusetts Institute of Technology. All Rights Reserved. </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="/assets/js/app.js"></script>
+-->
+
+    </section>
+
+  </body>
+</html>

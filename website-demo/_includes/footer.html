@@ -1,0 +1,32 @@
+<footer class="site-footer bg-dark">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-sm"><a href="https://quest.mit.edu"><img src="/assets/images/logo-quest-white.svg" width="240" height="77" alt="MIT Quest for Intelligence"></a></div>
+      <div class="col-sm">
+        <ul class="nav justify-content-sm-end dropdown">
+          {% for entry in site.data.nav %}
+            {% if entry.subfolderitems %}
+              <li class="nav-item dropdown {% if entry.url == page.url %}active {% endif %}">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="{{ entry.url }}" data-toggle="dropdown">{{ entry.text }}</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  {% for nav in entry.subfolderitems %}
+                    <a class="nav-link dropdown-item" href="{{ nav.url }}">{{ nav.text }}</a>
+                  {% endfor %}
+                </div>
+              </li>
+            {% else %}
+              <li class="nav-item {% if entry.url == page.url %}active {% endif %}">
+                <a class="nav-link" href="{{ entry.url }}">{{ entry.text }}</a>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer-copyright"><a href="http://web.mit.edu/"><img src="/assets/images/logo-mit-white.svg" width="72" height="38" alt="MIT"></a><br>&copy; 2019 Massachusetts Institute of Technology. All Rights Reserved. </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="/assets/js/app.js"></script>

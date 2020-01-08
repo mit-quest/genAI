@@ -1,0 +1,22 @@
+
+- text: Home
+  url: /
+
+- text: About
+  subfolderitems:
+    - text: What is the Bridge?
+      url: /strategy/
+    - text: What does the Bridge do?
+      url: /implementation/
+
+- text: Projects
+  url: /projects/
+
+- text: Services
+  subfolderitems:
+    - text: Submit a project
+      url: /submission/
+    - text: Office hours
+      url: /hours/
+    - text: Cloud credits
+      url: /credits/

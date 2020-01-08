@@ -1,0 +1,67 @@
+h1, .h1 {
+  font-family: 'Audiowide', cursive;
+  font-size: 6rem;
+  text-align: center;
+  margin-top: 10px !important;
+}
+
+h1:before, .h1:before {
+  content: None !important;
+  font-size: 5vh;
+}
+
+h2, .h2 {
+  font-family: 'Syncopate', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+body {
+  font-size: 1.75em;
+}
+
+p {
+  margin-top: 1.5em;
+}
+
+.bg-lab {
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.75),
+                  rgba(255, 255, 255, 0.75)
+  ),
+  url('/assets/images/bg-lab.jpg');
+  background-size: cover;
+  padding: 40px 40px 24px;
+  margin-bottom: 1rem;
+  @include media-breakpoint-up(md) {
+    min-height: 100%;
+  }
+}
+
+.bg-class {
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.75),
+                  rgba(255, 255, 255, 0.75)
+  ),
+  url('/assets/images/bg-class.jpg');
+  background-size: cover;
+  padding: 40px 40px 24px;
+  margin-bottom: 1rem;
+  @include media-breakpoint-up(md) {
+    min-height: 100%;
+  }
+}
+
+.bg-lib {
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.85),
+                  rgba(255, 255, 255, 0.85)
+  ),
+  url('/assets/images/bg-lib.jpg');
+  background-size: cover;
+  padding: 40px 40px 24px;
+  margin-bottom: 1rem;
+  @include media-breakpoint-up(md) {
+    min-height: 100%;
+  }
+}
