@@ -16,6 +16,7 @@ plugins:
   - jekyll-pug
   - jekyll-autoprefixer
   - jekyll-assets
+  - jekyll-watch
 
 defaults:
   -
@@ -28,4 +29,4 @@ assets:
 
 include: ['_pages']
 
-exclude: []
+exclude: [vendor]
