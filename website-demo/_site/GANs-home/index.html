@@ -113,6 +113,9 @@
          background-color:#FF5F5D;
     }
 
+    .btn:focus {
+        outline: none;
+    }
     .line {
         float: left;
         width: 20%;
@@ -129,10 +132,6 @@
         border: white;
         border-radius: 10px;
         padding: 5px;
-    }
-
-    .btn:focus {
-        outline: none;
     }
 
     #title {
@@ -152,6 +151,7 @@
         padding: 10px;
         transform: rotate(135deg);
         -webkit-transform: rotate(135deg);
+        margin-top: -10px;
     }
 
 </style>
@@ -171,7 +171,10 @@
                 <div class="row justify-content-around fixed-row-bottom">
                     <div class="col-4">
                         <b>How comfortable are you with this topic?</b>
-                        <div style="margin-top: 60px;"><button class="arrow btn"></button>Go back to menu</div>
+                        <div style="margin-top: 60px;">
+                            <button class="arrow btn"></button>
+                            <div style="margin-top:-56px; margin-left: 37px;">Go back to menu</div>
+                        </div>
                     </div>
                     <div class="col-4 list-group">
                         <button type="button" class="btn btn-primary btn-lg" id="btn-yellow">Beginner</button>

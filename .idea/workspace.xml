@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c46c710-0e30-4914-9064-1a82b71ba665" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/gans/1_g2TQog59vQDCpvtioJZSxw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/gans/GAN_progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/gans/Samsung_heads.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/gans/anime-gans.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/gans/classification.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/gans/fake-person.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/gans/ukiyo.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/gans_timeline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/gans_timeline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/assets/images/gans/GAN_progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/assets/images/gans/Samsung_heads.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/assets/images/gans/anime-gans.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/assets/images/gans/classification.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/assets/images/gans/fake-person.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/assets/images/gans/ukiyo.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/gans_timeline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/gans_timeline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website-demo/_sass/components/_sections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/_sass/components/_sections.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website-demo/_site/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/_site/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website-demo/_site/beginner-GANs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/_site/beginner-GANs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-demo/_site/GANs-home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/_site/GANs-home/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website-demo/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/_site/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website-demo/_site/intermediate-GANs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/_site/intermediate-GANs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website-demo/beginner-gans.html" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/beginner-gans.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website-demo/intermediate-gans.html" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/intermediate-gans.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-demo/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/landing.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,59 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website-demo/landing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="115" selection-start-line="115" selection-end-line="115" />
+            <state relative-caret-position="194">
+              <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website-demo/intermediate-gans.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#h1#0;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#figure#0;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#figure#1;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#1;n#figure#1;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#2;n#figure#1;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#figure#2;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#figure#3;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#figure#4;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website-demo/_site/feed.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/website-demo/_site/intermediate-GANs/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="168" column="29" selection-start-line="168" selection-start-column="29" selection-end-line="168" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -122,9 +65,9 @@
         <option value="$PROJECT_DIR$/website-demo/intermediate-gans.html" />
         <option value="$PROJECT_DIR$/website-demo/_includes/header.html" />
         <option value="$PROJECT_DIR$/website-demo/beginner-gans.html" />
-        <option value="$PROJECT_DIR$/website-demo/landing.html" />
         <option value="$PROJECT_DIR$/website-demo/_site/feed.xml" />
         <option value="$PROJECT_DIR$/website-demo/_site/intermediate-GANs/index.html" />
+        <option value="$PROJECT_DIR$/website-demo/landing.html" />
       </list>
     </option>
   </component>
@@ -290,12 +233,12 @@
       <updated>1579285127898</updated>
       <workItem from="1579285131842" duration="774000" />
       <workItem from="1579807018082" duration="718000" />
-      <workItem from="1580406262752" duration="22448000" />
+      <workItem from="1580406262752" duration="23745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23940000" />
+    <option name="totallyTimeSpent" value="25237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="23" width="1602" height="938" extended-state="0" />
@@ -445,22 +388,6 @@
     <entry file="file://$PROJECT_DIR$/website-demo/assets/images/menu-icon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/website-demo/landing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website-demo/intermediate-gans.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="619">
@@ -480,17 +407,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website-demo/_site/feed.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website-demo/_site/intermediate-GANs/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="168" column="29" selection-start-line="168" selection-start-column="29" selection-end-line="168" selection-end-column="29" />
+          <caret line="184" column="29" selection-start-line="184" selection-start-column="29" selection-end-line="184" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#h1#0;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#figure#0;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#figure#1;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#figure#1;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#figure#1;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#figure#2;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#figure#3;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#figure#4;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-demo/_site/feed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-demo/landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
