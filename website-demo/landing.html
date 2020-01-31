@@ -1,0 +1,196 @@
+---
+layout: 'landing'
+title: 'Chapter 12: GANs'
+permalink: /GANs-home/
+---
+<style>
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Syncopate:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+    body, html {
+        height: 100vh;
+        overflow:hidden;
+    }
+
+    body {
+        border-left-color: #8DCB8D;
+        border-left-style:solid;
+        border-left-width:15vw;
+        border-left-height: 100%;
+        background-image: url("../assets/images/menu-icon.png");
+        background-size: 48px 48px;
+        background-position: left 10px top 10px;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        padding: 2vw;
+    }
+
+    #container {
+        width: 100%;
+        height: 100%;
+    }
+
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+
+    .circle
+    {
+      width:300px;height:300px;
+      border: solid 3px #e08c52;
+      background-color: #FFA855;
+      box-shadow: -10px -10px rgb(224, 140, 82);
+      -moz-box-shadow: -10px -10px rgb(224, 140, 82);
+      -webkit-box-shadow: -10px -10px rgb(224, 140, 82);
+      -o-box-shadow: -10px -10px rgb(224, 140, 82);
+      border-radius:250px;
+    }
+
+    .list-group {
+        border-radius: 25px;
+        padding: 25px;
+        min-width: 375px;
+        max-width: 375px;
+        background-color: white;
+        box-shadow: -1vh 1vh 2vh rgb(200, 198, 195);
+      -moz-box-shadow: -1vh 1vh 2vh rgb(200, 198, 195);
+      -webkit-box-shadow: -1vh 1vh 2vh rgb(200, 198, 195);
+      -o-box-shadow: -1vh 1vh 2vh rgb(200, 198, 195);
+        text-align: left;
+    }
+
+    .dashes {
+      margin: 10px 0;
+        height:5px;
+      background:
+        repeating-linear-gradient(to right, #c8c6c3 0, #c8c6c3 20px,transparent 20px,transparent 50px)
+        /*white-space: nowrap;*/
+    }
+
+    p {
+        font-family: 'Nunito', sans-serif;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    hr {
+        border: 0;
+        clear:both;
+        display:block;
+        width: 96%;
+        height: 10px;
+        margin-top: -5px;
+    }
+
+    #hr-yellow, #btn-yellow {
+        background-color:#FFE08E;
+    }
+
+    #hr-blue, #btn-blue {
+        background-color:#1E6586;
+        color: white;
+    }
+
+    #hr-red, #btn-red {
+         background-color:#FF5F5D;
+    }
+
+    .line {
+        float: left;
+        width: 20%;
+        height: 40px;
+    }
+
+    h4 {
+        font-size: 28px;
+    }
+
+    button {
+        margin-bottom: 20px;
+        font-weight: bold;
+        border: white;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    .btn:focus {
+        outline: none;
+    }
+
+    #title {
+        font-size: 150px;
+    }
+
+    .fixed-row-bottom {
+        position: fixed;
+        bottom: 60px;
+    }
+
+    .arrow {
+        border: solid #8DCB8D;
+        border-width: 0 12px 12px 0;
+        border-radius: 5px;
+        display: inline-block;
+        padding: 10px;
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+
+</style>
+<main>
+    <div id="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="row" style="margin-left: 20px; margin-top: 40px;">
+                    <div class="circle"></div>
+                    <div class="dashes" style="margin-top: 50px; margin-left: -20px;">
+                        <div class="title" style="margin-top: 75px; margin-left: 50px; text-align: center">
+                            <h1 id="title">GANs</h1>
+                            <p style="font-size: 30px;">Generative Adversarial Networks</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-around fixed-row-bottom">
+                    <div class="col-4">
+                        <b>How comfortable are you with this topic?</b>
+                        <div style="margin-top: 60px;"><button class="arrow btn"></button>Go back to menu</div>
+                    </div>
+                    <div class="col-4 list-group">
+                        <button type="button" class="btn btn-primary btn-lg" id="btn-yellow">Beginner</button>
+                        <button type="button" class="btn btn-primary btn-lg" id="btn-blue">Intermediate</button>
+                        <button type="button" class="btn btn-primary btn-lg" id="btn-red">Advanced</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <img src="../assets/images/GenAI.png" style="max-height: 10vh;">
+                </div>
+                <div class="row fixed-row-bottom">
+                    <div class="list-group" style="margin-top: 20%">
+                        <h3 style="font-weight: bold; font-size: 36px;">Guide</h3>
+                        <br>
+                        <h4>Beginner</h4>
+                        <div class="line"><hr id="hr-yellow" style="" /></div>
+                        <p>Explanation of what this level would entail</p>
+                        <h4>Intermediate</h4>
+                        <div class="line"><hr id="hr-blue" style="" /></div>
+                        <p>Explanation of what this level would entail</p>
+                        <h4>Advanced</h4>
+                        <div class="line"><hr id="hr-red" style="" /></div>
+                        <p>Explanation of what this level would entail</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
