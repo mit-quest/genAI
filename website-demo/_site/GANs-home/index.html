@@ -22,7 +22,16 @@
         overflow:hidden;
     }
 
+
     body {
+        /*
+        code for making this triangular
+        width: 0;
+        height: 0;
+        border-left: 0px solid transparent;
+        border-right: 250px solid transparent;
+        border-top: 650px solid #8DCB8D; 
+        */
         border-left-color: #8DCB8D;
         border-left-style:solid;
         border-left-width:15vw;
@@ -105,8 +114,7 @@
     }
 
     #hr-blue, #btn-blue {
-        background-color:#1E6586;
-        color: white;
+        background-color:#5DBCD2;
     }
 
     #hr-red, #btn-red {
@@ -179,9 +187,9 @@
                         </div>
                     </div>
                     <div class="col-4 list-group">
-                        <button type="button" class="btn btn-primary btn-lg" id="btn-yellow">Beginner</button>
-                        <button type="button" class="btn btn-primary btn-lg" id="btn-blue">Intermediate</button>
-                        <button type="button" class="btn btn-primary btn-lg" id="btn-red">Advanced</button>
+                        <button type="button" class="btn btn-primary btn-lg" id="btn-yellow" onclick="window.location.href = 'http://127.0.0.1:4000/beginner-GANs/';">Beginner</button>
+                        <button type="button" class="btn btn-primary btn-lg" id="btn-blue" onclick="window.location.href = 'http://127.0.0.1:4000/intermediate-GANs/';">Intermediate</button>
+                        <button type="button" class="btn btn-primary btn-lg" id="btn-red" onclick="window.location.href = 'http://127.0.0.1:4000/advanced-GANs/';">Advanced</button>
                     </div>
                 </div>
             </div>
