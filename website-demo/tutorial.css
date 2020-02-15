@@ -1,5 +1,196 @@
 /*!
 
+For main tutorial page
+
+ */
+#main-content {
+  width: 800px;
+}
+
+#main-content h1:before,
+#main-content h2:before,
+#main-content h3:before {
+  color: #22dd11;
+}
+
+a {
+  color: #116600;
+}
+
+a:hover {
+  color: #22dd11;
+  text-decoration: none !important;
+}
+
+h1, h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 22px;
+}
+
+div.attendees {
+  border-style: solid;
+  border-width: 4px;
+  padding: 10px;
+}
+
+div.viz {
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+}
+
+p.presenter {
+    margin-top: -45px;
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+
+video {
+  alt: "Samsung talking heads";
+  width: 100%;
+  padding-bottom:0.5em;
+}
+
+div.list {
+  font-size: 18px;
+}
+
+.btn {
+  font-size: 18px;
+  border-radius: 40px;
+  border: solid 2px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  margin: 0 auto;
+  display: block;
+  max-width: 250px;
+  text-align: center;
+}
+
+ul.spacer {
+    margin-top: 8px;
+}
+
+p#further_reading {
+    font-size: 18px;
+}
+
+/*!
+
+For tutorial schedule
+
+ */
+
+#schedule ol {
+    font-style:italic;
+    font-family:Georgia, Times, serif;
+    font-size:28px;
+    color:#22dd11;
+}
+
+#schedule ol li p {
+    padding:8px 8px 20px;
+    font-style:italic;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size:18px;
+    color:#666;
+    margin-bottom: -15px;
+    margin-top: -20px;
+}
+
+#schedule ol li p em {
+    display:block;
+    font-style: normal;
+    margin-bottom: -5px;
+}
+
+/*!
+
+For list of games with GANs
+
+ */
+
+div#GAN_fun {
+  display: flex;
+  justify-content: space-around;
+}
+
+img.GAN_fun {
+  width: 145px;
+}
+
+.img__wrap {
+  position: relative;
+  height: 145px;
+  width: 145px;
+}
+
+.img__description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(102, 102, 102, 0.72);
+  color: #fff;
+  height: 145px;
+  width: 145px;
+  visibility: hidden;
+  opacity: 0;
+  margin-block-end: 0;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media only screen and (max-width:767px) {
+
+    div#GAN_fun {
+        display: grid;
+        grid-gap: 10px;
+        justify-content: center;
+    }
+
+    a#fun1 {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    a#fun2 {
+        grid-column-start: 2;
+        grid-row-start:1;
+    }
+
+    a#fun3 {
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+
+    a#fun4 {
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+}
+
+
+/*!
+
 For GAN development timeline
 https://bootsnipp.com/snippets/prmge
 
@@ -8,7 +199,7 @@ https://bootsnipp.com/snippets/prmge
 h4{text-align:center;margin:30px 0;color:#444}
 
 .container {
-  width: 600px;
+  width: 800px;
 }
 
 .row {
@@ -48,10 +239,10 @@ h4{text-align:center;margin:30px 0;color:#444}
 .main-timeline4 .timeline:nth-child(4) .year:before{border-right-color:#f8781f}
 .main-timeline4 .timeline:nth-child(4n) .title a {color:#f8781f}
 
-@media only screen and (max-width:800px){.main-timeline4 .year{top:50%;transform:translateY(-50%)}
+@media only screen and (max-width:2400px){.main-timeline4 .year{top:50%;transform:translateY(-50%)}
 }
 
-@media only screen and (max-width:800px){.main-timeline4 .timeline{padding-left:75px}
+@media only screen and (max-width:990px){.main-timeline4 .timeline{padding-left:75px}
 .main-timeline4 .timeline:nth-child(2n){padding:0 75px 0 0}
 .main-timeline4 .timeline-content{padding-left:130px}
 .main-timeline4 .timeline:nth-child(2n) .timeline-content{padding:0 130px 0 0}
@@ -72,4 +263,31 @@ h4{text-align:center;margin:30px 0;color:#444}
 .main-timeline4 .timeline:nth-child(4n) .year:before{border-right-color:#f8781f}
 .main-timeline4 .inner-content{padding:10px}
 .col-md-12{width: 50%; padding-right:40px;}
+}
+
+
+/*!
+
+For tutorial setup instructions
+
+ */
+
+span.step {
+    color: #22dd11;
+}
+
+
+/*!
+
+For tutorial temp landing page
+
+ */
+
+h1#oops {
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.notfound {
+    font-size: 24px;
 }

@@ -8,7 +8,7 @@ https://bootsnipp.com/snippets/prmge
 h4{text-align:center;margin:30px 0;color:#444}
 
 .container {
-  width: 800px;
+  width: 600px;
 }
 
 .row {
@@ -48,10 +48,10 @@ h4{text-align:center;margin:30px 0;color:#444}
 .main-timeline4 .timeline:nth-child(4) .year:before{border-right-color:#f8781f}
 .main-timeline4 .timeline:nth-child(4n) .title a {color:#f8781f}
 
-@media only screen and (max-width:2400px){.main-timeline4 .year{top:50%;transform:translateY(-50%)}
+@media only screen and (max-width:800px){.main-timeline4 .year{top:50%;transform:translateY(-50%)}
 }
 
-@media only screen and (max-width:990px){.main-timeline4 .timeline{padding-left:75px}
+@media only screen and (max-width:800px){.main-timeline4 .timeline{padding-left:75px}
 .main-timeline4 .timeline:nth-child(2n){padding:0 75px 0 0}
 .main-timeline4 .timeline-content{padding-left:130px}
 .main-timeline4 .timeline:nth-child(2n) .timeline-content{padding:0 130px 0 0}
