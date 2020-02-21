@@ -86,7 +86,7 @@ permalink: /beginner-GANs/
             <div class="col-md-9">
                 <article>
                     <h1><img src="../assets/images/gans/tiger.png" style="max-width: 1em;">GANs</h1>
-                    <p>In this chapter, we'll learn about Generative Adversarial Networks (GANs), a type of  artificial intelligence that can create all kinds of things without any help from humans.</p>
+                    <p>In this chapter, we'll learn about Generative Adversarial Networks (GANs), a type of  artificial intelligence that can create art and music!</p>
                     <h2 id="gan-is">What is a GAN?</h2>
                     <p> You know that humans can draw pictures, film videos, write stories, and compose music. You might even do some of these things yourself! But did you know that artificial intelligence programs called GANs can do these things too?</p>
 
@@ -98,9 +98,9 @@ permalink: /beginner-GANs/
 
                     <p>But, identifying a picture of a cat is different than creating a picture of a cat! For example, can you draw a picture of a cat from your imagination? You probably can! How do you know how to do that?</p>
 
-                    <p>Well, you might not know, but your brain definitely does! When you want to draw a cat, your brain lights up the neurons that stores the all the information it has about what cats look like. By activating the correct neurons, your brain can generate an image of a cat in your mind.</p>
+                    <p>Well, you might not know, but your brain definitely does! When you want to draw a cat, your brain lights up the neurons that store all the information it has about what cats look like. By activating the correct neurons, your brain can generate an image of a cat in your mind.</p>
 
-                    <p>This is how GANs work too! A GANs job is to figure out which neurons to light up in its neural network that will generate the most realistic image. Let’s look at some examples of the cool things that GANs can generate!</p>
+                    <p>GANs work a little bit differently because unlike you, they don't have any information stored away in a brain. But, if you show a GAN a bunch of pictures of a cat, it will try to figure out which neurons to light up in its neural network that will generate the most realistic image of a cat. Let’s look at some examples of the cool things that GANs can generate!</p>
                     <!-- https://machinelearningmastery.com/impressive-applications-of-generative-adversarial-networks/ - cartoon characters -->
                     <figure>
                         <img src="../assets/images/gans/anime-gans.png" style="max-width: 100%;">
@@ -112,8 +112,8 @@ permalink: /beginner-GANs/
                         <source src="../assets/images/gans/Samsung_heads.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                       </video>
-                      Image credit: compiled from [Egor Zakharov].(21 May 2019) <a href="https://www.youtube.com/watch?v=p1b5aiTrGzY">
-                        "Few-Shot Adversarial Learning of Realistic Neural Talking Head Models"</a>.
+                      <!--Image credit: compiled from [Egor Zakharov].(21 May 2019) <a href="https://www.youtube.com/watch?v=p1b5aiTrGzY">
+                        "Few-Shot Adversarial Learning of Realistic Neural Talking Head Models"--> GANs made these pictures and paintings talk!</a>
                     </div>
 
                     <h3>dr seuss gan</h3>
@@ -133,9 +133,9 @@ permalink: /beginner-GANs/
 
                     <h2 id="gan-how">How do GANs work?</h2>
                     <p>A GAN is made up of two different programs called the <b>generator</b> and the <b>discriminator</b>.</p>
-                    <p> The generator and discriminator are in a constant battle. The generator is constantly creating new things and keeps trying to trick the discriminator into thinking the things it creates are real, while the discriminator is trying to catch any differences between what the generator is creating and things that actually exist in the real world.</p>
+                    <p> The generator and discriminator are always trying to trick each other. The generator is constantly creating new things and keeps trying to trick the discriminator into thinking the things it creates are real, while the discriminator is trying to catch any differences between what the generator is creating and things that actually exist in the real world.</p>
                     <p>Here’s how we might think of the generator and the discriminator working together: </p>
-                    <p>Your art teacher would tell you that you need to create a Picasso painting. If you do it correctly, you won’t have homework for a week, but if you don’t, you get double the homework. The only problem is that you have never seen a Picasso painting before. So for your first try, you must come up with a random painting, and hope your teacher thinks it is a Picasso.</p>
+                    <p>Your art teacher would tell you that you need to create a Picasso painting. If you do it correctly, you won’t have homework for a week, but if you don’t, you get double the homework. The only problem is that you have never seen a Picasso painting before, and your teacher has seen many. So for your first try, you must come up with a random painting, and hope your teacher thinks it is a Picasso.</p>
                     <figure>
                         <img src="../assets/images/gans/art_teacher.png" style="max-width: 100%;">
                         <figcaption>Trying to fool your art teacher into thinking your painting is a Picasso</figcaption> <!-- sourced from Daniella's curriculum -->

@@ -109,8 +109,8 @@ permalink: /intermediate-GANs/
                         <source src="../assets/images/gans/Samsung_heads.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                       </video>
-                      Image credit: compiled from [Egor Zakharov].(21 May 2019) <a href="https://www.youtube.com/watch?v=p1b5aiTrGzY">
-                        "Few-Shot Adversarial Learning of Realistic Neural Talking Head Models"</a>.
+                      <!--Image credit: compiled from [Egor Zakharov].(21 May 2019) <a href="https://www.youtube.com/watch?v=p1b5aiTrGzY">
+                        "Few-Shot Adversarial Learning of Realistic Neural Talking Head Models"--> GANs made these pictures and paintings talk!</a>
                     </div>
 
                     <h3>text</h3>
@@ -122,8 +122,9 @@ permalink: /intermediate-GANs/
 
                     <h2 id="gan-history">History of GANs</h2>
                     <p>The original idea for GANs was published in 2014 by Ian Goodfellow, who is still widely considered to be the father of GANs. The 2014 paper laid out the basic framework for GANs, but since then, many improvements to the model have been made.  A 2015 paper introduced a class of convolutional network (CNN) called DCGANs (deep convolutional GANs), which became the new baseline for all GAN related applications. Further improvements in 2016 and 2017 improved training stability and prevented mode collapse, a condition in which the generator essentially breaks down. Improvements to image quality and detail were also made in 2017 in 2018, which is why the GAN produced images that we see today are much better than images produced a few years ago.</p>
-                    <!--
-                    <h2 id="resources_timeline">A brief history of GAN development</h2>
+                    
+                    <figure>
+                        <div style="zoom: 0.75">
                           <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
@@ -166,7 +167,7 @@ permalink: /intermediate-GANs/
                                                     <br>
                                                     <text class="title">Improved Techniques for Training GANs</a></text>
                                                     <p class="description">
-                                                        Methods for improving training stability and encouraging convergence
+                                                        Methods improve training stability and encourage convergence
                                                     </p>
                                                 </div>
                                             </text>
@@ -207,7 +208,9 @@ permalink: /intermediate-GANs/
                                     </div>
                                 </div>
                             </div>
-                        -->
+                        </div>
+                        <figcaption>A brief history of GAN development</figcaption>
+                    </figure>
                     <h2 id="gan-how">How do GANs work?</h2>
                     <p> You probably know that your own brain can generate a whole manner of things - songs, tastes, smells, feelings, and images. For example, even if you haven't heard a certain song in a while, you can probably sing it from memory. Similar to classification, this is also a learned behavior. Through singing this song over and over again and receiving feedback on the accuracy of your singing, both from other people and from comparing your singing to the real tune, your brain is now more aware of which neurons to activate to sing this song correctly. </p>
                     <p> GANs are based off of this process. As we mentioned in the previous section, GANS are made up of two adversarial neural networks called the generator and the discriminator. A discriminator is essentially just a normal neural network that classifies objects, similar to the neural networks you've learned about before. Generators are the opposite! The generator is trying to create content that seems convincing enough to fool the discriminator into classifying it as 'real'.</p> 
