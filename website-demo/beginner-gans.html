@@ -69,6 +69,47 @@ permalink: /beginner-GANs/
         font-family: 'Nunito', sans-serif;
     }
 
+    /*!
+
+    For list of games with GANs
+
+    */
+
+    img.GAN_fun {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+    }
+
+    .container:hover .overlay {
+      opacity: 1;
+    }
+
+    .img__description {
+      color: white;
+      font-size: 3vh;
+        font-weight: bold;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
 
 </style>
 <main>
@@ -141,61 +182,45 @@ permalink: /beginner-GANs/
                     </figure>
                     <p>Of course, you don’t get it right the first time. Your teacher gives you feedback though, like “more color” and “more edges” and “less circles”. Each time you come back to your teacher, you feel like you are getting closer to creating a Picasso painting. Finally, your teacher believes that you've actually created a real Picasso! Her feedback has helped you become so good at imitating Picasso's style that she can't tell the difference between your painting and one that Picasso made. You are now a very good generator, and your art teacher realizes that she has to get better at telling the difference between fake and real Picassos! </p>
 
-                    <!--
-                    <p class="question">1. Your Question?</p>
-
-                    <ul class="answers">
-
-                    <input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Option 1</label><br/>
-
-                    <input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Option 2</label><br/>
-
-                    <input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Option 3</label><br/>
-
-                    <input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Option 4</label><br/>
-
-                    </ul>
-
-                    <div id="results">
-
-                    The Right answers is
-
-                    </div>
-
-                    <div id="category1">
-
-                    <p><strong>Question 1:</strong> The correct answer is the <strong>Option 1</strong>.</p>
-
-                    </div>
-                    -->
                     <h2 id="mission">Play with GANs!</h2>
                     <p>Let's have some fun! Select one of the images below to play games with GANs!</p>
                     <br>
-                    <div id="GAN_fun">
-                      <a id="fun1" href="http://www.obvious-art.com/ukiyo">
-                        <div class="img__wrap">
-                          <img class="GAN_fun" src="../assets/images/gans/ukiyo.png">
-                          <p class="img__description"><b>ELECTRIC DREAMS</b> explore a GAN-generated medieval Japan!</p>
-                        </div>
-                      </a>
-                      <a id="fun2" class="GAN_fun" href="https://ganimals.media.mit.edu/breed_em">
-                        <div class="img__wrap">
-                          <img class="GAN_fun" src="../assets/images/gans/turtledog.png">
-                          <p class="img__description"><b>GANIMALS</b> Breed funky hybrid animals!</p>
-                        </div>
-                      </a>
-                      <a id="fun3" href="https://www.thispersondoesnotexist.com/">
-                        <div class="img__wrap">
+
+                    <div id="GAN_fun" class="row">
+                      <div class="col container">
+                        <a id="fun1" href="http://www.obvious-art.com/ukiyo">
+                          <img class="GAN_fun" src="../assets/images/gans/ukiyo.jpg">
+                            <div class="overlay">
+                                <p class="img__description"><b>ELECTRIC DREAMS</b><br>explore a GAN-generated medieval Japan!</p>
+                            </div>
+                          </a>
+                      </div>
+                        <div class="col container">
+                          <a id="fun2" class="GAN_fun" href="https://ganimals.media.mit.edu/breed_em">
+                              <img class="GAN_fun" src="../assets/images/gans/turtledog.png">
+                              <div class="overlay">
+                                <p class="img__description"><b>GANIMALS</b><br>Breed funky hybrid animals!</p>
+                              </div>
+                          </a>
+                      </div>
+                        <div class="w-100" style="padding-top: 30px;"></div>
+                        <div class="col container">
+                        <a id="fun3" href="https://www.thispersondoesnotexist.com/">
                           <img class="GAN_fun" src="../assets/images/gans/fake-person.png">
-                          <p class="img__description"><b>THIS PERSON DOES NOT EXIST</b>so many faces - and none of them are real</p>
-                        </div>
+                            <div class="overlay">
+                                <p class="img__description"><b>THIS PERSON DOES NOT EXIST</b><br>so many faces - and none of them are real</p>
+                            </div>
                       </a>
-                      <a id="fun4" href="https://mitmedialab.github.io/GAN-play/">
-                        <div class="img__wrap">
-                          <img class="GAN_fun" src="../assets/images/gans/smiley.png">
-                          <p class="img__description"><b>GANPLAY</b>Play with all sorts of fun GANs!</p>
+
                         </div>
+                      <div class="col container">
+                        <a id="fun4" href="https://mitmedialab.github.io/GAN-play/">
+                          <img class="GAN_fun" src="../assets/images/gans/pix2pix.png">
+                            <div class="overlay">
+                                <p class="img__description"><b>GANPLAY</b><br>Play with all sorts of fun GANs!</p>
+                            </div>
                       </a>
+                          </div>
                     </div>
 
                 </article>

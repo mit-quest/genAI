@@ -17,6 +17,7 @@ source "https://rubygems.org"
 # If you have any plugins, put them here!
 
 gem "jekyll-autoprefixer"
+gem "rb-fsevent", "0.10.2"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.11"
