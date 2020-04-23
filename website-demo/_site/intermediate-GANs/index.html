@@ -34,9 +34,7 @@
 @import url('https://fonts.googleapis.com/css?family=Syncopate:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
-/*@import "../gans_timeline.css";*/
-@import "../tutorial.css";
-/*@import "../style_dev_v1.css";*/
+@import "../assets/css/tutorial.css";
 
     html {
       scroll-behavior: smooth;
@@ -148,7 +146,12 @@
                     </figure>
 
                     <h2 id="gan-history">History of GANs</h2>
-                    <p>The original idea for GANs was published in 2014 by Ian Goodfellow, who is still widely considered to be the father of GANs. The 2014 paper laid out the basic framework for GANs, but since then, many improvements to the model have been made.  A 2015 paper introduced a class of convolutional network (CNN) called DCGANs (deep convolutional GANs), which became the new baseline for all GAN related applications. Further improvements in 2016 and 2017 improved training stability and prevented mode collapse, a condition in which the generator essentially breaks down. Improvements to image quality and detail were also made in 2017 in 2018, which is why the GAN produced images that we see today are much better than images produced a few years ago.</p>
+                    <p>The original idea for GANs was published in 2014 by Ian Goodfellow, who is still widely considered to be the father of GANs. The 2014 paper laid out the basic framework for GANs, but since then, many improvements to the model have been made.  A 2015 paper introduced a class of convolutional network (CNN) called DCGANs (deep convolutional GANs), which use deep convolutional neural networks in its architecture instead of regular neural networks, and this became the new baseline for all GAN related applications. Further improvements in 2016 and 2017 improved training stability and prevented mode collapse, a condition in which the generator essentially breaks down. Improvements to image quality and detail were also made in 2017 and 2018, which is why the GAN produced images that we see today are much better than images produced a few years ago.</p>
+
+                    <figure>
+                        <img src="../assets/images/gans/GAN_progress.png" style="max-width: 100%;">
+                        <figcaption>GANs have gotten a lot better over the past few years!</figcaption>
+                    </figure>
                     
                     <figure>
                         <div style="zoom: 0.75">
@@ -240,7 +243,7 @@
                     </figure>
                     <h2 id="gan-how">How do GANs work?</h2>
                     <p> You probably know that your own brain can generate a whole manner of things - songs, tastes, smells, feelings, and images. For example, even if you haven't heard a certain song in a while, you can probably sing it from memory. Similar to classification, this is also a learned behavior. Through singing this song over and over again and receiving feedback on the accuracy of your singing, both from other people and from comparing your singing to the real tune, your brain is now more aware of which neurons to activate to sing this song correctly. </p>
-                    <p> GANs are based off of this process. As we mentioned in the previous section, GANS are made up of two adversarial neural networks called the generator and the discriminator. A discriminator is essentially just a normal neural network that classifies objects, similar to the neural networks you've learned about before. Generators are the opposite! The generator is trying to create content that seems convincing enough to fool the discriminator into classifying it as 'real'.</p> 
+                    <p> GANs are based off of this process. As we mentioned in the first section, GANS are made up of two adversarial neural networks called the generator and the discriminator. A discriminator is essentially just a normal neural network that classifies objects, similar to the neural networks you've learned about before. Generators are the opposite! The generator is trying to create content that seems convincing enough to fool the discriminator into classifying it as 'real'.</p> 
                     <p> How does the generator learn how to do this? Well, it's pretty similar to how your own brain learns! At first, the generator has no idea what it's doing, and it activates random neurons to generate an object. It then passes this object to the discriminator, which provides the generator with feedback on its object - in other words, it's telling the generator how close its generated object was to something that the discriminator would accept. With the feedback from the discriminator, the generator doesn't have to randomly guess which neurons to light up anymore. It can now take a more educated guess, and in this constant process of trying to fool the discriminator and receiving feedback, the generator eventually gets very good at creating these objects and knows exactly which neurons to light up to get an object past the discriminator!</p>
                     <p>Let's simplify things a bit with an example. </p>
                     <img src="../assets/images/gans/counterfeit.png" style="max-width: 100%;">
@@ -314,7 +317,7 @@
                       Unit 276 of the church GAN draws towers.
                     </div>
                     
-                    <p> This is pretty interesting because it means that the neurons a GAN learns depends on the type of object it learns to generate. Let's look at an example:</p>
+                    <p> This is pretty interesting because it means that the types of neurons a GAN trains depends on the type of object it learns to generate. Let's look at an example:</p>
                     <figure>
                         <img src="../assets/images/gans/scene-dissection.png" style="width: 100%;">
                         <figcaption>GANs learning to draw different types of images</figcaption>
