@@ -81,6 +81,7 @@ permalink: /intermediate-GANs/
                     <a class="list-group-item list-group-item-action scrollto" href="#gan-history">History of GANs</a>
                     <a class="list-group-item list-group-item-action scrollto" href="#gan-how">How do GANs work?</a>
                     <a class="list-group-item list-group-item-action scrollto" href="#gan-look">Look inside a GAN</a>
+                    <a class="list-group-item list-group-item-action scrollto" href="#gan-quiz">Quiz yourself!</a>
                     <a class="list-group-item list-group-item-action scrollto" href="#mission">Play with GANs!</a>
                 </div>
             </div>
@@ -298,37 +299,86 @@ permalink: /intermediate-GANs/
                     <p> Let's look closely at this image. There are four GANs learning to draw four different types of images. From top to bottom, these images are: a conference room, a dining room, a kitchen, and a church/outdoor scene. If we look closely at the right side of the image, we see that the GAN has broken up each of these scenes into separate parts. This means that it has assigned specific units of neurons to draw each of these parts. For example, in the conference room scene (top left), look carefully at the graph in the top right of the picture. Here, the GAN has assigned different units of neurons to draw this scene. There are neurons that know how to draw people, swivel chairs, monitors, and lots of other items that the GAN identified in the scene.</p>
                     <p> But in the kitchen scene, the GAN has identified different types of objects! There are stove neurons, cabinet neurons, and refrigerator neurons. What does this mean? Well, it means that the neurons that a GAN learns depend on the type of scene it learns to draw. A swivel chair neuron appears when learning conference rooms, and a stove neuron appears when drawing kitchens. This makes sense because if you were trying to draw a picture of a kitchen, the neurons in your brain for drawing a swivel chair would probably not activate. Your knowledge of <i>composition</i> allows you to realize that when drawing a kitchen, a swivel chair would not be one of the components that you need. GANs can acquire a basic idea of this information as well! </p>
 
+                    <h2 id="gan-quiz">Quiz yourself!</h2>
+                    <script src = "../main.js"></script>
+                    <body>
+                        <form id = "quiz" name = "quiz">
+                            <p> What does the term <b>GAN</b>' stand for?</p>
+                            <input id = "textbox" type = "text" name = "question1">
+
+                            <p>In what year was the original idea for GANs published?</p>
+                            <input type = "radio" id = "mc" name = "question2" value = "2012">2012<br>
+                            <input type = "radio" id = "mc" name = "question2" value = "2014">2014<br>
+                            <input type = "radio" id = "mc" name = "question2" value = "2016">2016<br>
+                            <input type = "radio" id = "mc" name = "question2" value = "2018">2018<br>
+
+                            <p>Choose the true statement about neural networks and GANs.</p>
+
+                            <input type = "radio" id = "mc" name = "question3" value = "Neural networks and GANs both classify.">Neural networks and GANs both classify.<br>
+                            <input type = "radio" id = "mc" name = "question3" value = "Neural networks classify and GANs generate.">Neural networks classify and GANs generate.<br>
+                            <input type = "radio" id = "mc" name = "question3" value = "Neural networks generate and GANs classify.">Neural networks generate and GANs classify.<br>
+                            <input type = "radio" id = "mc" name = "question3" value = "Neural networks and GANs both generate.">Neural networks and GANs both generate.<br>
+
+                            <p>A neuron in a GAN has learned to recognize rugs. Which set of images was it probably trained on?</p>
+
+                            <input type = "radio" id = "mc" name = "question4" value = "kitchen">&nbsp&nbsp<img src="../assets/images/quiz/kitchen.png" style="max-width: 100%;"> &nbsp Images of kitchens <br><br>
+                            <input type = "radio" id = "mc" name = "question4" value = "livingroom">&nbsp&nbsp<img src="../assets/images/quiz/livingroom.jpg" style="max-width: 100%;">&nbsp Images of living rooms <br><br>
+                            <input type = "radio" id = "mc" name = "question4" value = "deck">&nbsp&nbsp<img src="../assets/images/quiz/deck.PNG" style="max-width: 100%;">&nbsp Images of decks <br><br>
+                            <input type = "radio" id = "mc" name = "question4" value = "backyard">&nbsp&nbsp<img src="../assets/images/quiz/backyard.JPG" style="max-width: 100%;">&nbsp Images of backyards <br><br>
+
+
+                            <br>
+                            <input id = "button" type = "button" value = "Submit" onclick = "check();">
+
+                        </form>
+
+                        <div id = "after_submit">
+                            <p id = "number_correct"></p>
+                        </div>
+                        </html>
+
+                    </body>
+
                     <h2 id="mission">Play with GANs!</h2>
 
                     <p>Let's have some fun! Select one of the images below to play games with GANs!</p>
                     <br>
-                    <div id="GAN_fun">
-                      <a id="fun2" class="GAN_fun" href="https://ganimals.media.mit.edu/breed_em">
-                        <div class="img__wrap">
-                          <img class="GAN_fun" src="../assets/images/gans/turtledog.png">
-                          <p class="img__description"><b>GANIMALS</b> Breed funky hybrid animals!</p>
-                        </div>
-                      </a>
-                      <a id="fun2" class="GAN_fun" href="https://affinelayer.com/pixsrv/">
-                        <div class="img__wrap">
-                          <img class="GAN_fun" src="../assets/images/gans/GAN-cat.png">
-                          <p class="img__description"><b>EDGES2...</b> cats, shoes, buildings and more from line drawings</p>
-                        </div>
-                      </a>
-                      <a id="fun3" href="https://www.thispersondoesnotexist.com/">
-                        <div class="img__wrap">
+                    <div id="GAN_fun" class="row">
+                      <div class="col container">
+                        <a id="fun1" href="https://ganimals.media.mit.edu/breed_em">
+                              <img class="GAN_fun" src="../assets/images/gans/turtledog.png">
+                              <div class="overlay">
+                                <p class="img__description"><b>GANIMALS</b><br>Breed funky hybrid animals!</p>
+                            </div>
+                          </a>
+                      </div>
+                        <div class="col container">
+                          <a id="fun2" class="GAN_fun" href="https://affinelayer.com/pixsrv/">
+                              <img class="GAN_fun" src="../assets/images/gans/GAN-cat.png">
+                              <div class="overlay">
+                                <p class="img__description"><b>EDGES2...</b> cats, shoes, buildings and more from line drawings</p>
+                              </div>
+                          </a>
+                      </div>
+                        <div class="w-100" style="padding-top: 30px;"></div>
+                        <div class="col container">
+                        <a id="fun3" href="https://www.thispersondoesnotexist.com/">
                           <img class="GAN_fun" src="../assets/images/gans/fake-person.png">
-                          <p class="img__description"><b>This Person Does Not Exist</b>None of these faces are real!</p>
-                        </div>
+                            <div class="overlay">
+                                <p class="img__description"><b>THIS PERSON DOES NOT EXIST</b><br>so many faces - and none of them are real</p>
+                            </div>
                       </a>
-                      <a id="fun4" href="https://mitmedialab.github.io/GAN-play/">
-                        <div class="img__wrap">
-                          <img class="GAN_fun" src="../assets/images/gans/pikachu.png">
-                          <p class="img__description"><b>GANPLAY</b>Play with all sorts of fun GANs!</p>
+
                         </div>
+                      <div class="col container">
+                        <a id="fun4" href="https://mitmedialab.github.io/GAN-play/">
+                          <img class="GAN_fun" src="../assets/images/gans/pix2pix.png">
+                            <div class="overlay">
+                                <p class="img__description"><b>GANPLAY</b><br>Play with all sorts of fun GANs!</p>
+                            </div>
                       </a>
-                    </div>
-                    
+                          </div>
+                    </div>                 
                 </article>
             </div>
         </div>
