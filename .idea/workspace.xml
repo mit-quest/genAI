@@ -2,190 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c46c710-0e30-4914-9064-1a82b71ba665" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/backyard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/deck.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/backyard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/deck.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/gans/smiley.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/gans/turtledog.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/kitchen.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/livingroom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/quiz/backyard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/quiz/deck.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/quiz/kitchen.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/images/quiz/livingroom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/kitchen.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/assets/livingroom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/_site/quiz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/assets/images/gans/smiley.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/assets/images/gans/turtledog.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/assets/images/quiz/backyard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/assets/images/quiz/deck.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/assets/images/quiz/kitchen.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/assets/images/quiz/livingroom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/quiz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/nokogiri-1.10.9-x64-mingw32.gem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/cache/nokogiri-1.10.9-x64-mingw32.gem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/LICENSE-DEPENDENCIES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/bin/nokogiri" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/dependencies.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/depend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/extconf.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/html_document.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/html_document.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/html_element_description.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/html_element_description.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/html_entity_lookup.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/html_entity_lookup.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/html_sax_parser_context.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/html_sax_parser_context.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/html_sax_push_parser.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/html_sax_push_parser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/nokogiri.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/nokogiri.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_attr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_attr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_attribute_decl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_attribute_decl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_cdata.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_cdata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_comment.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_comment.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_document.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_document.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_document_fragment.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_document_fragment.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_dtd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_dtd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_element_content.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_element_content.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_element_decl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_element_decl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_encoding_handler.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_encoding_handler.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_entity_decl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_entity_decl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_entity_reference.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_entity_reference.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_io.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_io.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_libxml2_hacks.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_libxml2_hacks.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_namespace.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_namespace.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_node.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_node.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_node_set.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_node_set.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_processing_instruction.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_processing_instruction.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_reader.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_reader.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_relax_ng.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_relax_ng.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_sax_parser.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_sax_parser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_sax_parser_context.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_sax_parser_context.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_sax_push_parser.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_sax_push_parser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_schema.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_schema.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_syntax_error.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_syntax_error.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_text.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_text.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_xpath_context.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xml_xpath_context.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xslt_stylesheet.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/ext/nokogiri/xslt_stylesheet.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/2.3/nokogiri.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/2.4/nokogiri.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/2.5/nokogiri.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/2.6/nokogiri.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/css.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/css/node.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/css/parser.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/css/parser.y" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/css/parser_extras.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/css/syntax_error.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/css/tokenizer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/css/tokenizer.rex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/css/xpath_visitor.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/decorators/slop.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/html.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/html/builder.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/html/document.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/html/document_fragment.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/html/element_description.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/html/element_description_defaults.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/html/entity_lookup.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/html/sax/parser.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/html/sax/parser_context.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/html/sax/push_parser.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/syntax_error.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/attr.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/attribute_decl.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/builder.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/cdata.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/character_data.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/document.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/document_fragment.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/dtd.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/element_content.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/element_decl.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/entity_decl.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/entity_reference.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/namespace.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/node.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/node/save_options.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/node_set.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/notation.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/parse_options.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/pp.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/pp/character_data.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/pp/node.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/processing_instruction.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/reader.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/relax_ng.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/sax.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/sax/document.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/sax/parser.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/sax/parser_context.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/sax/push_parser.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/schema.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/searchable.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/syntax_error.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/text.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/xpath.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/xpath/syntax_error.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xml/xpath_context.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xslt.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/nokogiri/xslt/stylesheet.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.9-x64-mingw32/lib/xsd/xmlparser/nokogiri.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/specifications/nokogiri-1.10.9-x64-mingw32.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website-demo/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website-demo/_site/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/_site/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-demo/_site/GANs-home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/_site/GANs-home/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website-demo/_site/beginner-GANs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/_site/beginner-GANs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website-demo/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website-demo/_site/intermediate-GANs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/_site/intermediate-GANs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website-demo/assets/images/gans/pikachu.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website-demo/beginner-gans.html" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/beginner-gans.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website-demo/intermediate-gans.html" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/intermediate-gans.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/bin/nokogiri" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/vendor/cache/ruby/2.6.0/bin/nokogiri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-demo/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/website-demo/landing.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,17 +18,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website-demo/advanced-gans.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
+            <state relative-caret-position="766">
               <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website-demo/beginner-gans.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="210" column="23" selection-start-line="210" selection-start-column="23" selection-end-line="210" selection-end-column="23" />
+            <state relative-caret-position="247">
+              <caret line="117" column="23" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#h1#0;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#figure#0;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
@@ -222,16 +42,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website-demo/landing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="207" column="14" selection-start-line="207" selection-start-column="14" selection-end-line="207" selection-end-column="14" />
+            <state relative-caret-position="355">
+              <caret line="180" column="37" selection-start-line="180" selection-start-column="37" selection-end-line="180" selection-end-column="37" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#main#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#b#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
@@ -269,12 +91,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Wireframing/Ryan/ryan-landingpage.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -282,6 +106,7 @@
       <find>rb-fs</find>
       <find>ffi</find>
       <find>fse</find>
+      <find>float</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -299,14 +124,15 @@
         <option value="$PROJECT_DIR$/website-demo/_layouts/landing.html" />
         <option value="$PROJECT_DIR$/website-demo/_sass/components/_sections.scss" />
         <option value="$PROJECT_DIR$/website-demo/intermediate-gans.html" />
-        <option value="$PROJECT_DIR$/website-demo/landing.html" />
         <option value="$PROJECT_DIR$/website-demo/advanced-gans.html" />
         <option value="$PROJECT_DIR$/website-demo/Gemfile" />
+        <option value="$PROJECT_DIR$/website-demo/gans_home.html" />
         <option value="$PROJECT_DIR$/website-demo/beginner-gans.html" />
+        <option value="$PROJECT_DIR$/website-demo/landing.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="11" />
     <option name="y" value="23" />
     <option name="width" value="1602" />
@@ -349,12 +175,6 @@
               <item name="_sass" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="genAI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="genAI" type="462c0819:PsiDirectoryNode" />
-              <item name="website-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -362,6 +182,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/website-demo" />
@@ -391,12 +212,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.gans_home.html">
+    <configuration name="gans_home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/genAI/website-demo/gans_home.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="landing.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/genAI/website-demo/landing.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.gans_home.html" />
         <item itemvalue="JavaScript Debug.landing.html" />
       </list>
     </recent_temporary>
@@ -418,7 +243,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34325000" />
+    <option name="totallyTimeSpent" value="37657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="23" width="1602" height="938" extended-state="0" />
@@ -581,25 +406,8 @@
     <entry file="file://$PROJECT_DIR$/Wireframing/Ryan/ryan-landingpage divsplit.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wireframing/Ryan/ryan-landingpage.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Images/Color Palette/genAIColorPalette_pass1.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-demo/intermediate-gans.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-demo/advanced-gans.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website-demo/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
@@ -621,14 +429,23 @@
     <entry file="file://$PROJECT_DIR$/website-demo/assets/images/gans/ukiyo.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/website-demo/landing.html">
+    <entry file="file://$PROJECT_DIR$/website-demo/advanced-gans.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="207" column="14" selection-start-line="207" selection-start-column="14" selection-end-line="207" selection-end-column="14" />
+        <state relative-caret-position="766">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-demo/gans_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="160" column="55" selection-start-line="160" selection-start-column="55" selection-end-line="160" selection-end-column="55" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#main#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#b#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
@@ -641,8 +458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website-demo/beginner-gans.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="210" column="23" selection-start-line="210" selection-start-column="23" selection-end-line="210" selection-end-column="23" />
+        <state relative-caret-position="247">
+          <caret line="117" column="23" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#img#0;n#h1#0;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#figure#0;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
@@ -651,6 +468,36 @@
             <element signature="n#style#0;n#img#0;n#figure#3;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#figure#4;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#1;n#article#0;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wireframing/Ryan/ryan-landingpage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-demo/intermediate-gans.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-demo/landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="180" column="37" selection-start-line="180" selection-start-column="37" selection-end-line="180" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
