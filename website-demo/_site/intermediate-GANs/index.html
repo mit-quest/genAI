@@ -330,38 +330,80 @@
                     <script src = "../main.js"></script>
                     <body>
                         <form id = "quiz" name = "quiz">
-                            <p> What does the term <b>GAN</b>' stand for?</p>
-                            <input id = "textbox" type = "text" name = "question1">
-
+                            <p>What does the term '<b>GAN</b>' stand for?</p>
+                            <input id = "textbox" type = "text" name = "question1"><br><br>
+                            <input id = "button" type = "button" value = "Check" onclick = "check1();">
+                            
+                            <div id = "after_submit_1">
+                                <p id = "number_correct_1"></p>
+                            </div>
                             <p>In what year was the original idea for GANs published?</p>
                             <input type = "radio" id = "mc" name = "question2" value = "2012">2012<br>
                             <input type = "radio" id = "mc" name = "question2" value = "2014">2014<br>
                             <input type = "radio" id = "mc" name = "question2" value = "2016">2016<br>
-                            <input type = "radio" id = "mc" name = "question2" value = "2018">2018<br>
+                            <input type = "radio" id = "mc" name = "question2" value = "2018">2018<br><br>
+                            <input id = "button" type = "button" value = "Check" onclick = "check2();">
+                            
+                            <div id = "after_submit_2">
+                                <p id = "number_correct_2"></p>
+                            </div>
 
-                            <p>Choose the true statement about neural networks and GANs.</p>
+                            <p>How many networks is a GAN composed of? </p>
+                            <input id = "textbox" type = "text" name = "question3"><br><br>
+                            <input id = "button" type = "button" value = "Check" onclick = "check3();">
+                            
+                            <div id = "after_submit_3">
+                                <p id = "number_correct_3"></p>
+                            </div>
 
-                            <input type = "radio" id = "mc" name = "question3" value = "Neural networks and GANs both classify.">Neural networks and GANs both classify.<br>
-                            <input type = "radio" id = "mc" name = "question3" value = "Neural networks classify and GANs generate.">Neural networks classify and GANs generate.<br>
-                            <input type = "radio" id = "mc" name = "question3" value = "Neural networks generate and GANs classify.">Neural networks generate and GANs classify.<br>
-                            <input type = "radio" id = "mc" name = "question3" value = "Neural networks and GANs both generate.">Neural networks and GANs both generate.<br>
+                            <p>Describe the relationship between the networks in a GAN. </p>
+                            <input id = "textbox" type = "text" name = "question4"><br><br>
+                            <input id = "button" type = "button" value = "Check" onclick = "check4();">
+                            
+                            <div id = "after_submit_4">
+                                <p id = "number_correct_4"></p>
+                            </div>
 
-                            <p>A neuron in a GAN has learned to recognize rugs. Which set of images was it probably trained on?</p>
+                            <p>Choose the true statement about generators and discriminators.</p>
 
-                            <input type = "radio" id = "mc" name = "question4" value = "kitchen">&nbsp&nbsp<img src="../assets/images/quiz/kitchen.png" style="max-width: 100%;"> &nbsp Images of kitchens <br><br>
-                            <input type = "radio" id = "mc" name = "question4" value = "livingroom">&nbsp&nbsp<img src="../assets/images/quiz/livingroom.jpg" style="max-width: 100%;">&nbsp Images of living rooms <br><br>
-                            <input type = "radio" id = "mc" name = "question4" value = "deck">&nbsp&nbsp<img src="../assets/images/quiz/deck.PNG" style="max-width: 100%;">&nbsp Images of decks <br><br>
-                            <input type = "radio" id = "mc" name = "question4" value = "backyard">&nbsp&nbsp<img src="../assets/images/quiz/backyard.JPG" style="max-width: 100%;">&nbsp Images of backyards <br><br>
+                            <input type = "radio" id = "mc" name = "question5" value = "Generators classify images and discriminators create new images.">Generators classify images and discriminators create new images.<br>
+                            <input type = "radio" id = "mc" name = "question5" value = "Generators and discriminators both classify images.">Generators and discriminators both classify images.<br>
+                            <input type = "radio" id = "mc" name = "question5" value = "Generators create new images and discriminators classify images.">Generators create new images and discriminators classify images.<br>
+                            <input type = "radio" id = "mc" name = "question5" value = "Generators and discriminators both create new images.">Generators and discriminators both classify images.<br><br>
+                            <input id = "button" type = "button" value = "Check" onclick = "check5();">
+                            
+                            <div id = "after_submit_5">
+                                <p id = "number_correct_5"></p>
+                            </div>
 
+                            <p>A neuron in a GAN discriminator has learned to recognize ovens. Which set of images was it probably trained on?</p>
 
-                            <br>
-                            <input id = "button" type = "button" value = "Submit" onclick = "check();">
+                            <input type = "radio" id = "mc" name = "question6" value = "kitchen">&nbsp&nbsp<img src="../assets/images/quiz/kitchen.png" style="max-width: 100%;"> &nbsp Images of kitchens <br><br>
+                            <input type = "radio" id = "mc" name = "question6" value = "livingroom">&nbsp&nbsp<img src="../assets/images/quiz/livingroom.jpg" style="max-width: 100%;">&nbsp Images of living rooms <br><br>
+                            <input type = "radio" id = "mc" name = "question6" value = "deck">&nbsp&nbsp<img src="../assets/images/quiz/deck.PNG" style="max-width: 100%;">&nbsp Images of decks <br><br>
+                            <input type = "radio" id = "mc" name = "question6" value = "backyard">&nbsp&nbsp<img src="../assets/images/quiz/backyard.JPG" style="max-width: 100%;">&nbsp Images of backyards <br><br>
+                            <input id = "button" type = "button" value = "Check" onclick = "check6();">
+                            
+                            <div id = "after_submit_6">
+                                <p id = "number_correct_6"></p>
+                            </div>
 
+                            <p>Which of these images was most likely generated by a GAN?</p>
+
+                            <input type = "radio" id = "mc" name = "question7" value = "person1">&nbsp&nbsp<img src="../assets/images/quiz/person1.PNG" style="max-width: 100%;"><br><br>
+                            <input type = "radio" id = "mc" name = "question7" value = "person2">&nbsp&nbsp<img src="../assets/images/quiz/person2.PNG" style="max-width: 100%;"><br><br>
+                            <input type = "radio" id = "mc" name = "question7" value = "deck">&nbsp&nbsp<img src="../assets/images/quiz/person3.PNG" style="max-width: 100%;"><br><br>
+                            <input type = "radio" id = "mc" name = "question7" value = "backyard">&nbsp&nbsp<img src="../assets/images/quiz/person4.PNG" style="max-width: 100%;"><br><br>
+                            <input type = "radio" id = "mc" name = "question7" value = "All of the above">All of the above<br><br>
+                            
+                            <input id = "button" type = "button" value = "Check" onclick = "check7();">
+                            
+                            <div id = "after_submit_7">
+                                <p id = "number_correct_7"></p>
+                            </div>
+                            
                         </form>
 
-                        <div id = "after_submit">
-                            <p id = "number_correct"></p>
-                        </div>
                         </html>
 
                     </body>
