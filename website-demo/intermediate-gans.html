@@ -7,7 +7,6 @@ permalink: /intermediate-GANs/
 @import url('https://fonts.googleapis.com/css?family=Syncopate:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
-@import "../assets/css/tutorial.css";
 
     html {
       scroll-behavior: smooth;
@@ -118,6 +117,8 @@ permalink: /intermediate-GANs/
                     <a class="list-group-item list-group-item-action scrollto" href="#gan-look">Look inside a GAN</a>
                     <a class="list-group-item list-group-item-action scrollto" href="#gan-quiz">Quiz yourself!</a>
                     <a class="list-group-item list-group-item-action scrollto" href="#mission">Play with GANs!</a>
+                    <a class="list-group-item list-group-item-action scrollto" href="#discuss">Discussion</a>
+
                 </div>
             </div>
             <div class="col-md-9">
@@ -138,16 +139,16 @@ permalink: /intermediate-GANs/
                         <figcaption>None of these people are real!</figcaption> <!-- https://machinelearningmastery.com/impressive-applications-of-generative-adversarial-networks/ -->
                     </figure>
                     
-                    <div class="viz" style="width:100%; font-size:80%; text-align:center">
-                      <video loop="" muted="" autoplay="" controls="">
+                    <figure style="max-width: 100%;">
+                        <video loop="" muted="" autoplay="" controls="" width = "580">
                         <source src="../assets/images/gans/Samsung_heads.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                       </video>
                       <!--Image credit: compiled from [Egor Zakharov].(21 May 2019) <a href="https://www.youtube.com/watch?v=p1b5aiTrGzY">
-                        "Few-Shot Adversarial Learning of Realistic Neural Talking Head Models"--> GANs made these pictures and paintings talk!</a>
-                    </div>
-
-                    <h3>text</h3>
+                        "Few-Shot Adversarial Learning of Realistic Neural Talking Head Models"-->
+                        <figcaption>GANs made these pictures and paintings talk!</figcaption>
+                    </figure>
+                    
 
                     <figure>
                     <iframe scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/246633991&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" width="100%" height="450" frameborder="0"><!-- react-text: 56 -->This was supposed to display an embedded <!-- /react-text --><a href="https://soundcloud.com/deepjazz-ai/sets">SoundCloud</a><!-- react-text: 58 --> app. Your browser does not support iframes and/or SoundCloud is blocked by your internet provider.<!-- /react-text --></iframe>
@@ -163,91 +164,7 @@ permalink: /intermediate-GANs/
                     </figure>
                     
                     <figure>
-                        <div style="zoom: 0.75">
-                          <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="main-timeline4">
-                                        <div class="timeline">
-                                            <text class="timeline-content">
-                                                <span class="year">2014</span>
-                                                <div class="inner-content">
-                                                    <text class="title">Generative Adversarial Nets</a></text>
-                                                    <p class="description">
-                                                    The original GAN
-                                                    </p>
-                                                    <br>
-                                                    <text class="title">Conditional Generative Adversarial Nets</a></text>
-                                                    <p class="description">
-                                                    Directing generation with labeled data
-                                                    </p>
-                                                </div>
-                                            </text>
-                                        </div>
-                                        <div class="timeline">
-                                            <text class="timeline-content">
-                                                <span class="year">2015</span>
-                                                <div class="inner-content">
-                                                    <text class="title">Deep Convolutional Generative Adversarial Networks</a></text>
-                                                    <p class="description">
-                                                        Improvements to the original GAN architecture make DCGAN the new baseline
-                                                    </p>
-                                                </div>
-                                            </text>
-                                        </div>
-                                        <div class="timeline">
-                                            <text class="timeline-content">
-                                                <span class="year">2016</span>
-                                                <div class="inner-content">
-                                                    <text class="title">InfoGAN</a></text>
-                                                    <p class="description">
-                                                        Encoding meaningful features to make GANs interpretable
-                                                    </p>
-                                                    <br>
-                                                    <text class="title">Improved Techniques for Training GANs</a></text>
-                                                    <p class="description">
-                                                        Methods improve training stability and encourage convergence
-                                                    </p>
-                                                </div>
-                                            </text>
-                                        </div>
-                                        <div class="timeline">
-                                            <text class="timeline-content">
-                                                <span class="year">2017</span>
-                                                <div class="inner-content">
-                                                    <text class="title">Progressive Growing of GANs</a></text>
-                                                    <p class="description">
-                                                        Adding layers as training progresses enables modeling of increasingly fine details
-                                                    </p>
-                                                </div>
-                                            </text>
-                                        </div>
-                                        <div class="timeline">
-                                            <text class="timeline-content">
-                                                <span class="year">2018</span>
-                                                <div class="inner-content">
-                                                    <text class="title">Self-Attention GAN</a></text>
-                                                    <p class="description">
-                                                        Incorporating attention improves image generation quality
-                                                    </p>
-                                                </div>
-                                            </text>
-                                        </div>
-                                        <div class="timeline">
-                                            <text class="timeline-content">
-                                                <span class="year">2019</span>
-                                                <div class="inner-content">
-                                                    <text class="title">Lipschitz GANs</a></text>
-                                                    <p class="description">
-                                                      Lipschitz constraint guarantees the existence and uniqueness of the optimal discriminative function
-                                                    </p>
-                                                </div>
-                                            </text>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <img src="../assets/images/history.png" style="max-width: 100%;">
                         <figcaption>A brief history of GAN development</figcaption>
                     </figure>
                     <h2 id="gan-how">How do GANs work?</h2>
@@ -455,7 +372,16 @@ permalink: /intermediate-GANs/
                             </div>
                       </a>
                           </div>
-                    </div>                 
+                    </div>
+                <h2 id="discuss">Discussion</h2>
+                <p>
+                  <ul>
+                    <li>If you used a GAN trained on an artists' paintings to generate a new painting, who is the creator of that new painting? You, the GAN, or the artist? What do you think, and why?</li><br>
+                    <li>Sometimes, GANs are used to replace voices and images in videos so it looks like a different person was in the video altogether. These are called <b>deepfakes</b>. In what ways do you think deepfakes could be used, and why?</li><br>
+                    <li>Can you think of any applications in which GANs could be used for the greater good? How about situations in which GANs could be misused?</li><br>
+                    <li>In what situations do you think GANs would be useful? In what situations do you think GANs should definitely not be used?</li><br>
+                  </ul>
+                </p>                 
                 </article>
             </div>
         </div>
