@@ -8,6 +8,10 @@ The need for democratization of online education has become dire, especially in 
 
 This repo contains a prototype of what a chapter in this online textbook would look like. We chose to focus on GANs for this example chapter. In the future, we hope to grow this into a full fledged website where students of all ages can come to educate themselves on the fundamentals of AI technology. 
 
+## Team
+- Katherine Gallagher, AI Software Engineer at the MIT Quest for Intelligence
+- Nisha Devasia, Undergraduate Researcher in the MIT Media Lab's Personal Robots Group
+
 ## How to view
 
 1. Clone this repository 
