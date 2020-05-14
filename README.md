@@ -16,7 +16,7 @@ This repo contains a prototype of what a chapter in this online textbook would l
 
 1. Clone this repository 
 2. cd into genAI/website-demo
-3.Make sure you have Ruby installed
+3. Make sure you have Ruby installed
 4. `bundle install`
 5. `bundle exec jekyll serve`
 6. Visit http://localhost:4000 
